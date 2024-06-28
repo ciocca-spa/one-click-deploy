@@ -17,6 +17,7 @@ export const config: VendureConfig = {
         port: +(process.env.PORT || 3000),
         adminApiPath: 'admin-api',
         shopApiPath: 'shop-api',
+        shopListQueryLimit: 500,
         // The following options are useful in development mode,
         // but are best turned off for production for security
         // reasons.
